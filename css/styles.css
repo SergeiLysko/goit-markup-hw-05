@@ -114,7 +114,7 @@ img{
         .pages {
             font-style: normal;
             display: flex;
-            gap: 50px;
+            gap: 30px;
         }
        
         .pages2{
@@ -592,11 +592,73 @@ margin-top: 16px;
        
 }
 
-.raf{
+.main-list-raf{
     display: block;
 }
-.raf:hover,
-.raf:focus{
-    box-shadow:0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+.main-list-raf:hover,
+.main-list-raf:focus{
+    box-shadow:0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16); 
 
+}
+       /* homework5 */
+
+     .tehnokrak {
+        transform: translate(0,100%);
+        transition: transform 250ms linear;
+        overflow: auto;
+        position: absolute;
+        width: 100%;
+        height: auto;
+        left: 0;
+        top: 0;
+        padding-top: 63px;
+        padding-right: 24px;
+        padding-bottom: 63px;
+        padding-left: 24px;
+        font-weight: 400;
+            font-size: 18px;
+            line-height:  1.56;
+            letter-spacing: 0.03em;
+        color:var(--fourth-text-color);
+    background: rgba(33, 150, 243, 0.9);
+     }
+   .ggg{
+    position: relative;
+    overflow: hidden;
+   }
+.mainli:hover .tehnokrak{
+    transform: translate(0,0);
+}
+ .aok{
+    text-transform: uppercase;
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+    font-weight: 700;
+        font-size: 14px;
+        line-height: 1.16;
+        text-align: center;
+        
+        padding: 27px 107px;
+    color: var(--fourth-text-color);
+    background:rgba(47, 48, 58, 0.8); ;
+ }
+ .aok.a{
+    padding-top: 27px;
+    padding-right: 95px;
+    padding-bottom: 27px;
+    padding-left: 95px;
+
+ }
+ .pag{
+    position: relative;
+ }
+ .pagess{
+    font-style: normal;
+        display: flex;
+
+ }
+.headerorr {
+    margin-right: 50px;
+    margin-left: 53px;
 }
