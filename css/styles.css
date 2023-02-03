@@ -21,6 +21,7 @@
     --hero-color:rgba(47, 48, 58, 0.4);
     --bekgr-color: #C4C4C4;
     --inlgr:rgba(47, 48, 58, 0.4);
+    --btn-close: #000000;
 }
 
 
@@ -697,6 +698,7 @@ margin-top: 16px;
     height: 30px;
     border-radius: 50%;
     padding: 0;
+    fill:var(--btn-close);
     background-color: transparent;
     border: 1px solid rgba(0, 0, 0, 0.1);
 }
