@@ -329,7 +329,7 @@ img{
         background: var(--accent-color);
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 
-        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 
         .hero-bt:hover,
@@ -352,7 +352,7 @@ img{
         border-radius: 4px;
         border: var(--background-colorr-team);
 
-        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
     .ger{border-color: var(--background-colorr-team);
       margin-right: 8px;;
@@ -533,9 +533,7 @@ margin-top: 16px;
     height: 100%;
     border-radius: 50%;  
     fill: var(--regular-color);
-    transition-property: background-color;
-        transition-duration: 250ms;
-        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .soc:hover ,
 .soc:focus {
@@ -563,10 +561,7 @@ margin-top: 16px;
     border-radius: 4px;
     color:var(--regular-color);
 
-    transition-property:color, fill,border-color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1),color 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
     
 }
 .lord:hover,
@@ -610,7 +605,8 @@ margin-top: 16px;
 .sol:hover,
 .sol:focus {
     background-color: var(--accent-color);}
-.social-lis{
+
+    .social-lis{
     width: 44px;
         height: 44px;
        
@@ -618,9 +614,7 @@ margin-top: 16px;
 
 .main-list-raf{
     display: block;
-    transition-property:box-shadow;
-        transition-duration: 250ms;
-        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
 }
 .main-list-raf:hover,
